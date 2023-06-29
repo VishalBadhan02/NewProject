@@ -151,6 +151,7 @@ public class login extends javax.swing.JFrame {
                     System.out.println(userModel.getEmail());
                     Page1 page1 = new Page1();
                     page1.setVisible(true);
+                    
                     this.dispose();
                 }
 

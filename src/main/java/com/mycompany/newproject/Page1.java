@@ -46,7 +46,6 @@ public class Page1 extends javax.swing.JFrame {
         tphonenumber = new javax.swing.JTextField();
         temail = new javax.swing.JTextField();
         texperience = new javax.swing.JTextField();
-        jDateChooser2 = new com.toedter.calendar.JDateChooser();
         jButton2 = new javax.swing.JButton();
         payments = new javax.swing.JPanel();
         jLabel17 = new javax.swing.JLabel();
@@ -88,7 +87,6 @@ public class Page1 extends javax.swing.JFrame {
         jLabel14 = new javax.swing.JLabel();
         weight = new javax.swing.JTextField();
         height = new javax.swing.JTextField();
-        jDateChooser1 = new com.toedter.calendar.JDateChooser();
         jButton1 = new javax.swing.JButton();
         home = new javax.swing.JPanel();
         jPanel1 = new javax.swing.JPanel();
@@ -122,7 +120,7 @@ public class Page1 extends javax.swing.JFrame {
 
         jLabel18.setFont(new java.awt.Font("Segoe UI", 3, 18)); // NOI18N
         jLabel18.setText("TRAINER INFO");
-        trainer.add(jLabel18, new org.netbeans.lib.awtextra.AbsoluteConstraints(270, 10, -1, -1));
+        trainer.add(jLabel18, new org.netbeans.lib.awtextra.AbsoluteConstraints(210, 10, -1, -1));
 
         jLabel19.setText("FULL NAME ");
         trainer.add(jLabel19, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 70, -1, -1));
@@ -166,7 +164,6 @@ public class Page1 extends javax.swing.JFrame {
         trainer.add(tphonenumber, new org.netbeans.lib.awtextra.AbsoluteConstraints(170, 190, 80, -1));
         trainer.add(temail, new org.netbeans.lib.awtextra.AbsoluteConstraints(170, 220, 80, -1));
         trainer.add(texperience, new org.netbeans.lib.awtextra.AbsoluteConstraints(170, 250, 80, -1));
-        trainer.add(jDateChooser2, new org.netbeans.lib.awtextra.AbsoluteConstraints(170, 280, -1, -1));
 
         jButton2.setText("ADD");
         jButton2.addMouseListener(new java.awt.event.MouseAdapter() {
@@ -394,7 +391,6 @@ public class Page1 extends javax.swing.JFrame {
                                         .addComponent(age)
                                         .addComponent(email)
                                         .addComponent(phonenumber))
-                                    .addComponent(jDateChooser1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                                     .addComponent(address, javax.swing.GroupLayout.PREFERRED_SIZE, 100, javax.swing.GroupLayout.PREFERRED_SIZE)
                                     .addComponent(jRadioButton2)
                                     .addComponent(jRadioButton3))))
@@ -451,10 +447,8 @@ public class Page1 extends javax.swing.JFrame {
                 .addGroup(memberLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(jLabel8)
                     .addComponent(address, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
-                .addGap(25, 25, 25)
-                .addGroup(memberLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
-                    .addComponent(jLabel11)
-                    .addComponent(jDateChooser1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addGap(27, 27, 27)
+                .addComponent(jLabel11)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
                 .addGroup(memberLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(jLabel9)
@@ -471,7 +465,7 @@ public class Page1 extends javax.swing.JFrame {
                         .addComponent(jRadioButton3)
                         .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
                     .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, memberLayout.createSequentialGroup()
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 35, Short.MAX_VALUE)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                         .addComponent(jButton1)
                         .addGap(64, 64, 64))))
         );
@@ -767,8 +761,6 @@ public class Page1 extends javax.swing.JFrame {
     private javax.swing.JPanel home;
     private javax.swing.JButton jButton1;
     private javax.swing.JButton jButton2;
-    private com.toedter.calendar.JDateChooser jDateChooser1;
-    private com.toedter.calendar.JDateChooser jDateChooser2;
     private javax.swing.JLabel jLabel1;
     private javax.swing.JLabel jLabel10;
     private javax.swing.JLabel jLabel11;
